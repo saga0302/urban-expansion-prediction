@@ -1,4 +1,21 @@
+cat > .gitignore << 'EOF'
+# Data files
 *.tif
+*.tiff
+
+# Mac system files
 .DS_Store
-.ipynb_checkpoints/
+
+# Python
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Models (too large for git)
+*.h5
+*.keras
+*.pkl
+
+# Outputs (generated files)
+outputs/figures/*
+EOF

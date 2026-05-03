@@ -1,0 +1,5 @@
+echo "rasterio
+numpy
+tensorflow
+scikit-learn
+matplotlib" > requirements.txt
